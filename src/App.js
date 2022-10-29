@@ -17,6 +17,8 @@ function App() {
         <Welcome name="Nabil" summoner="nabil19"/>
         <Message/>*/} 
         <Counter/>
+        <Greet name="Nabil" summoner="nabil19"/>
+        <Welcome name="Nabiel" summoner="nabil19"/>
     </div>
   );
 }
