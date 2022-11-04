@@ -10,6 +10,7 @@ import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
+import ParentsComponents from './components/ParentsComponents';
 function App() {
   return (
     <div className="App">
@@ -23,8 +24,9 @@ function App() {
         <Greet name="Nabil" summoner="nabil19"/>
         <Welcome name="Nabil" summoner="nabil19"/>
         <FunctionClick/>
-        <ClassClick/>*/}
-        <EventBind/>
+        <ClassClick/>
+        <EventBind/>*/}
+        <ParentsComponents/>
     </div>
   );
 }
